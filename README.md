@@ -4,8 +4,6 @@
 
 This is a test task for a future social network built without any starter code. Given the routes developed, the current functions include; creating a user, updating a user, the users elgibility to create thoughts and reactions, which can up updated and deleted as well. Currently, there is no front end interface.
 
-All routes were tested using Insomnia which you can check out [HERE](https://www.youtube.com/watch?v=AjmnPAGOa6U) !
-
 ## Installation & Usage
 
 ```

@@ -14,12 +14,14 @@ const {
 router.route("/").get(getUsers).post(createUser);
 
 // /api/users/:studentId
-router.route("/:userId").get(getSingleUser).delete(deleteUser);
+router.route("/:userId").get(getSingleUser).put(updateUser).delete(deleteUser);
 
 // /api/users/:studentId/friend
-router.route("/:userId/friends").post(addFriend);
+// router
+// .route("/:userId/friends")
+// .post(addFriend);
 
 // /api/users/:studentId/friends/:thoughtId
-router.route("/:userId/friends/:friendId").delete(removeFriend);
+router.route("/:userId/friends/:friendId").post(addFriend).delete(deleteFriend);
 
 module.exports = router;

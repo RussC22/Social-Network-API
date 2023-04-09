@@ -1,11 +1,12 @@
 const router = require("express").Router();
 const {
   getUsers,
+  updateUser,
   getSingleUser,
   createUser,
   deleteUser,
   addFriend,
-  removeFriend,
+  deleteFriend,
 } = require("../../controllers/userController");
 
 // Three routes (delete users, put user update, get)

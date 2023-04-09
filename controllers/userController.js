@@ -11,7 +11,7 @@ module.exports = {
 
   // get a single user by its _id and populated thought and friend data
   getSingleUser(req, res) {
-    User.findOne({ _id: req.params.id })
+    User.findOne({ _id: req.params.userId })
       .select("-__v")
       .then((dbUserData) =>
         !dbUserData
@@ -31,7 +31,7 @@ module.exports = {
   // update a user by their _id
   updateUser(req, res) {
     User.findOneAndUpdate(
-      { _id: req.params.id },
+      { _id: req.params.userId },
       { $set: req.body },
       { runValidators: true, new: true }
     )
@@ -45,7 +45,7 @@ module.exports = {
 
   // delete user by their _id
   deleteUser(req, res) {
-    User.findOneAndDelete({ _id: req.params.id })
+    User.findOneAndDelete({ _id: req.params.userId })
       .then((user) =>
         !user
           ? res.status(404).json({ message: "No user with that ID" })

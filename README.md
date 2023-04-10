@@ -29,6 +29,9 @@ SO THAT my website can handle large amounts of unstructured data
 - [<a href='https://https://github.com/RussC22/Object-Oriented-Programming-' target="_blank"><img alt='Github' src='https://img.shields.io/badge/Github-100000?style=plastic&logo=Github&logoColor=8D22FF&labelColor=151304&color=C707A4'/></a>](https://github.com/RussC22/Social-Network-API)
 - [Demo](#)
 
+<img width="2048" alt="Social Network SS" src="https://user-images.githubusercontent.com/114961971/230804309-f71f1659-abeb-43b9-9061-5f38a4401ae5.png">
+
+
 ## Technology used
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
